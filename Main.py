@@ -27,9 +27,9 @@ class Evaluate:
       True if it is empty, else returns False.
     """
       # Write your code here
-      if self.top == -1:
+    if self.top == -1:
         return True
-      else:
+    else:
         return False
 
 
@@ -107,7 +107,7 @@ class Evaluate:
         elif i == '^':
           stack[-2] = stack[-2] ^ stack[-1]
           stack.pop()
-     return int(stack[-1])
+    return int(stack[-1])
 
 
 # Do not change the following code
